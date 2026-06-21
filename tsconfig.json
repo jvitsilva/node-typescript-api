@@ -7,7 +7,7 @@
     "sourceMap": true,
     "rootDir": "./",
     "outDir": "dist",
-    "types": ["node"],
+    "types": ["node", "jest"],
 
     "strict": true,
     "noImplicitAny": true,
