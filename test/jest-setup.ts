@@ -3,7 +3,7 @@ import { createServer } from 'node:http';
 import supertest from 'supertest';
 
 beforeAll(() => {
-    const server = new SetupServer();
-    server.init();
-    global.testRequest = supertest(createServer(server.getApp()));
+  const server = new SetupServer();
+  server.init();
+  global.testRequest = supertest(createServer(server.getApp()));
 });
